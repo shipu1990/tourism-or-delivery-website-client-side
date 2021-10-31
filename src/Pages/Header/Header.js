@@ -23,9 +23,9 @@ const Header = () => {
                             <Link to="/contact">Contact Us</Link>
                             {user?.email? 
                             <NavDropdown title="User Details" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">My Order</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">All Order</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Add New Order</NavDropdown.Item>
+                                 <Link to="/myorder">My Order</Link>
+                                 <Link to="/allorder">All Order</Link>
+                                <Link to="/addorder">Add New Order</Link>
                                 <Button onClick={logOut} variant="light">LogOut</Button>
                             </NavDropdown>: 
                              <Link to="/login">Log In</Link>

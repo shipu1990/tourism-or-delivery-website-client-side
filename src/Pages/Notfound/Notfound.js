@@ -5,8 +5,8 @@ import noteFound from '../../images/notfound.png';
 
 const Notfound = () => {
     return (
-        <div className="service-container">
-            <Container>
+        <div>
+            <Container className="mt-5">
                 <Row>
                     <Col>
                         <Image src={noteFound} />

@@ -9,6 +9,9 @@ import Destination from './Pages/Destination/Destination';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import Booking from './Pages/Booking/Booking';
 import Notfound from './Pages/Notfound/Notfound';
+import MyOrder from './Pages/MyOrder/MyOrder';
+import AllOrder from './Pages/AllOrder/AllOrder';
+import AddOrder from './Pages/AddOrder/AddOrder';
 
 function App() {
   return (
@@ -32,7 +35,16 @@ function App() {
           <Route path="/login">
             <Login></Login>
           </Route>
-            <PrivateRoute path="/booking/:serviceId">
+          <Route path="/myorder">
+            <MyOrder></MyOrder>
+          </Route>
+          <Route path="/allorder">
+            <AllOrder></AllOrder>
+          </Route>
+          <Route path="/addorder">
+            <AddOrder></AddOrder>
+          </Route>
+            <PrivateRoute path="/booking/:destinationId">
              <Booking></Booking>
             </PrivateRoute>
             <Route path="*">

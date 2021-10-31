@@ -9,7 +9,7 @@ const Destination = () => {
     //console.log(service);
 
     useEffect(()=>{
-        fetch('./destination.JSON')
+        fetch('http://localhost:5000/destination')
         .then(res => res.json())
         .then(data => setDestinations(data))
     } ,[])
@@ -27,13 +27,13 @@ const Destination = () => {
             </Row>
             <Row>
                     {
-                    destinations.map(destination =><Col xs={12} md={4} key={destination.id}>
+                    destinations.map(destination =><Col xs={12} md={4} key={destination._id}>
                       <div className="service-box">
                         <Image src={destination.img} fluid />
                         <div className="service-info">
                             <h2 className="service-head">{destination.name}</h2>
                             <p className="service-para">{destination.price} / Per Person</p>
-                            <Link className="read-more-btn" to ={`booking/${destination.id}`}>Read More</Link>
+                            <Link className="read-more-btn" to ={`booking/${destination._id}`}>Read More</Link>
                         </div>
                     </div>
                     </Col>) 
