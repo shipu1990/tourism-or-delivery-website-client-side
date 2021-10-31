@@ -10,7 +10,7 @@ const Login = () => {
 
     const location = useLocation();
     const history = useHistory();
-    const redirect_Uri = location.state?.from || '/service';
+    const redirect_Uri = location.state?.from || '/destination';
     // console.log(email, name, password);
 
 

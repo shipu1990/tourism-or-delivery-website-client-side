@@ -19,7 +19,6 @@ const Header = () => {
                     <Col sm={9}>
                         <Nav className="mt-4">
                             <Link to="/home">Home</Link>
-                            <Link to="/about">About Us</Link>
                             <Link to="/destination">Destination</Link>
                             <Link to="/contact">Contact Us</Link>
                             {user?.email? 

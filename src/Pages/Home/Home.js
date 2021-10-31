@@ -43,13 +43,13 @@ const Home = () => {
                 <Container>
                     <Row>
                         <Col xs={12} md={4} >
-                            <h2>22 + <br/> <span>Professional Tour Guides</span></h2>
+                            <h2>22+ <br/> <span>Professional Tour Guides</span></h2>
                         </Col>
                         <Col xs={12} md={4} >
-                            <h2>84 k<br/> <span>Tours are Completed</span></h2>
+                            <h2>84k<br/> <span>Tours are Completed</span></h2>
                         </Col>
                         <Col xs={12} md={4} >
-                            <h2>88 k<br/> <span>Happy Customers</span></h2>
+                            <h2>88k<br/> <span>Happy Customers</span></h2>
                         </Col>
                     </Row>
                 </Container>

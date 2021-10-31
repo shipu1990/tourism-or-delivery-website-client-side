@@ -1,0 +1,10 @@
+.contact-para{
+    font-size:16px;
+    font-weight:600;
+    text-align: left;
+    line-height:24px;
+    padding-bottom: 8px;
+}
+.contact-para span{
+    font-weight: bold;
+}

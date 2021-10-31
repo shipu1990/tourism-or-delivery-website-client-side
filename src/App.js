@@ -4,7 +4,6 @@ import Header from './Pages/Header/Header';
 import AuthProvider from './context/AuthProvider';
 import Footer from './Pages/Footer/Footer';
 import Login from './Pages/Login/Login';
-import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 import Destination from './Pages/Destination/Destination';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
@@ -23,9 +22,6 @@ function App() {
           </Route>
           <Route exact path="/home">
             <Home></Home>
-          </Route>
-          <Route exact path="/about">
-            <About></About>
           </Route>
           <Route exact path="/contact">
             <Contact></Contact>
