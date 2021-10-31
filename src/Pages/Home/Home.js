@@ -9,7 +9,7 @@ const Home = () => {
     //console.log(service);
 
     useEffect(()=>{
-        fetch('http://localhost:5000/destination')
+        fetch('https://ghostly-scarecrow-44362.herokuapp.com/destination')
         .then(res => res.json())
         .then(data => setDestinations(data))
     } ,[])

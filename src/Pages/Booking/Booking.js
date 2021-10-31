@@ -12,14 +12,14 @@ const Booking = () => {
     const [booking, setBooking] = useState([])
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/destination/${destinationId}`)
+        fetch(`https://ghostly-scarecrow-44362.herokuapp.com/destination/${destinationId}`)
         .then(res => res.json())
         .then(data => setDestinationId(data))
     } ,[])
 
     const handleBooking = id =>{
 
-        fetch('http://localhost:5000/booking', {
+        fetch('https://ghostly-scarecrow-44362.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
