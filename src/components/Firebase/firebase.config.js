@@ -1,10 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBpToae2Jdvc_ooL4PzqKJJdYU9hmwJzAE",
-  authDomain: "triptravels-72e26.firebaseapp.com",
-  projectId: "triptravels-72e26",
-  storageBucket: "triptravels-72e26.appspot.com",
-  messagingSenderId: "653445130954",
-  appId: "1:653445130954:web:b7d2713053e04402bf6233"
+  apiKey: "AIzaSyBKJUDVdb6JkQ5NYayVMOz6BDZRNigvV7A",
+  authDomain: "tripetravelsfinal.firebaseapp.com",
+  projectId: "tripetravelsfinal",
+  storageBucket: "tripetravelsfinal.appspot.com",
+  messagingSenderId: "460965129582",
+  appId: "1:460965129582:web:155ebf3ce92726e8b3657f"
+
   };
   
   export default firebaseConfig;
