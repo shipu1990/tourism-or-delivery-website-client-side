@@ -1,10 +1,11 @@
 # Getting Started with Project Link
 
-Here is the live link, you can Visit [Create React App](https://github.com/facebook/create-react-app).
+Here is the live link, you can Visit [Trip Travel App](https://tripetravelsfinal.web.app/).
 
 ## Technology i have Used
 
 I used Most Powerfull Technology for Build this site and
+
 1. HTML
 2. CSS
 3. Javascript
@@ -20,5 +21,4 @@ I used Most Powerfull Technology for Build this site and
 2. You can Book from us
 3. You can see the price, so that it will be easy to take right decision
 4. You will get the payment procedure from Faq
-5. You will get experience tour guide 
-
+5. You will get experience tour guide
