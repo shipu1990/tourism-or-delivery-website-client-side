@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Discover Depth of Beach",
+      "img": "https://i.ibb.co/xFjFKcv/1.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout",
+      "price": 20000
+    },
+    {
+      "id": 2,
+      "name": "Moscow Red City Land",
+      "img": "https://i.ibb.co/5TXsYjG/2.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 26000
+    },
+    {
+      "id": 3,
+      "name": "Magic of Italy Tours",
+      "img": "https://i.ibb.co/Stcv18j/3.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 32000
+    },
+    {
+      "id": 4,
+      "name": "The Dark Forest Adventure",
+      "img": "https://i.ibb.co/BfV4wCN/4.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 14000
+    },
+    {
+      "id": 5,
+      "name": "Discover ArtiFicial Beach",
+      "img": "https://i.ibb.co/rt8qrHZ/5.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. ",
+      "price": 60000
+    },
+    {
+      "id": 6,
+      "name": "The Red City",
+      "img": "https://i.ibb.co/3rfX7xQ/6.jpg",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      "price": 11000
+    }
+  ]

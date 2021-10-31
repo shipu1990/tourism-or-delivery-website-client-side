@@ -1,0 +1,33 @@
+.service-box {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.service-info {
+  padding: 30px 10px;
+}
+.service-head {
+  font-size: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.service-para {
+  font-size: 17px;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f59012;
+}
+.read-more-btn {
+  background: goldenrod;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 7px 10px;
+  text-decoration: none;
+}
+a.read-more-btn:hover {
+  text-decoration: none;
+  color: #ddd;
+}
